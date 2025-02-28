@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: #ffffff;
+  }
+  
+  .left{
+    width: 700px;
+    margin-left: 30px;
+  }
+  
+  .container .left button{
+    background-color: rgb(235, 157, 209);
+  }
+  .left ul{
+    display: flex;
+  }
+
+  .left li{
+    list-style-type: none;
+    margin-left: 20px;
+  }
+  .mid{
+    width: 400px;
+  }
+  .mid li{
+    margin-top: 10px;
+    list-style-type: none;
+  }
+
+  .right li{
+    list-style-type: none;
+    margin-top: 15px;
+  }
+
+  

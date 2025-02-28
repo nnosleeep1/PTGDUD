@@ -1,0 +1,11 @@
+.content{
+    height: 700px;
+    width: 100%;
+    display: flex;
+}
+.left{
+    width: 500px;
+}
+.right{
+    text-align: center;
+}

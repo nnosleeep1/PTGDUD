@@ -1,0 +1,66 @@
+.header {
+    height: 100px;
+}
+
+.header img {
+    height: 90px;
+    margin-top: 5px;
+}
+
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    
+  }
+  
+.header > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .header h4{
+    font-size: 50px;
+    font-style: oblique;
+    margin-top: 20px;
+    color: rgb(233, 122, 150);
+  }
+
+  .header .inp{
+    display: flex;
+    background-color: rgb(236, 170, 170);
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    margin-top: 30px;
+  }
+
+  .header ul{
+    margin-top: 40px;
+    display: flex;
+    width: 500px;
+  }
+  .header ul li{
+    list-style-type: none;
+    width: 150px;
+  }
+  .header .recipe{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+  }
+  .recipe p{
+    font-size: 20px;
+    margin-top: -10px;
+    color: rgb(233, 105, 201);
+  }
+  .header .avatar{
+    background-color: blueviolet;
+    margin-top: 20px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+  }
