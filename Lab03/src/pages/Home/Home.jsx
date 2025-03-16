@@ -8,7 +8,7 @@ const Home = () => {
     const [error, setError] = useState(null);  // Add error state
 
     useEffect(() => {
-        fetch('https://67c81bfd0acf98d07084e174.mockapi.io/Restaurant')
+        fetch('https://67c81bfd0acf98d07084e174.mockapi.io/Restaurants')
             .then((res) => res.json())
             .then((data) => {
                 setData(data);
