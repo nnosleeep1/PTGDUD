@@ -4,8 +4,8 @@ import edit from "../assets/Lab_05/edit.png";
 import file from "../assets/Lab_05/file.png"
 import import1 from "../assets/Lab_05/import.png"
 import export1 from "../assets/Lab_05/export.png"
-
-
+import CustomModal from "./CustomModal"
+// Cột của bảng
 const columns = [
   {
     title: 'CUSTOMER NAME',
@@ -79,7 +79,7 @@ const CustomerTable = ({data,setData,fetchData}) => {
                </div>
 
             </div>
-          
+            <CustomModal open={open} handleCancel={handleCancel} setData={setData} data={data} fetchData={fetchData}/>
       <Divider />
       <AntTable
         rowSelection={{ type: 'checkbox' }}
