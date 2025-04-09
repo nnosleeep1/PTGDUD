@@ -10,7 +10,7 @@ import sms from "../assets/Lab_05/sms.png";
 import group from "../assets/Lab_05/Group.png";
 
 const Menu = () => {
-  
+  const location = useLocation();
 
   const menuItems = [
     { key: 1, icon: dashboard, label: "Dashboard", path: "/" },
@@ -30,7 +30,7 @@ const Menu = () => {
           const isActive = location.pathname === item.path;
 
           return (
-          
+            <Link to={item.path} key={item.key}>
               <li
                 className={`flex items-center gap-4 cursor-pointer p-2 rounded-lg transition-all ${
                   isActive
@@ -41,7 +41,7 @@ const Menu = () => {
                 <img src={item.icon} alt={item.label} className="w-5" />
                 <h1>{item.label}</h1>
               </li>
-           
+            </Link>
           );
         })}
       </ul>

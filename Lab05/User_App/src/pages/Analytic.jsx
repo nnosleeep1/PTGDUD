@@ -9,7 +9,7 @@ const Analytic=()=>{
          <div className="w-full px-5">
              <Header/>
               <OverView></OverView>
-              <>Analytic</>
+              <h1 className="font-bold text-2xl">Analytic</h1>
          </div>
          <div></div>
     </div>

@@ -9,7 +9,7 @@ const Teams=()=>{
          <div className="w-full px-5">
              <Header/>
               <OverView></OverView>
-              <>Teams</>
+              <h1 className="font-bold text-2xl">Teams</h1>
          </div>
          <div></div>
     </div>

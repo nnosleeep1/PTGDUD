@@ -9,7 +9,7 @@ const Integration=()=>{
          <div className="w-full px-5">
              <Header/>
               <OverView></OverView>
-              <>Integration</>
+              <h1 className="font-bold text-2xl">Integration</h1>
          </div>
          <div></div>
     </div>

@@ -8,7 +8,7 @@ const Message=()=>{
          <div className="w-full px-5">
              <Header/>
               <OverView></OverView>
-              <>Message</>
+              <h1 className="font-bold text-2xl">Message</h1>
          </div>
          <div></div>
     </div>

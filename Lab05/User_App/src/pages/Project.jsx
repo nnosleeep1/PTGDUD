@@ -9,7 +9,7 @@ const Project=()=>{
          <div className="w-full px-5">
              <Header/>
               <OverView></OverView>
-              <>Project</>
+              <h1 className="font-bold text-2xl">Project</h1>
          </div>
          <div></div>
     </div>
