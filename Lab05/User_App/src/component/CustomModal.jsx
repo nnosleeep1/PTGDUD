@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, message, Modal } from 'antd';
+import { Alert, Button, message, Modal } from 'antd';
 
 const CustomModal = ({open,handleCancel,setData,data,fetchData}) => {
  
@@ -29,6 +29,7 @@ const CustomModal = ({open,handleCancel,setData,data,fetchData}) => {
         message.success('User added successfully!');
         await fetchData();
         handleCancel(); 
+      alert("User added successfully!")
       } else {
         message.error('Failed to add user!');
       }
