@@ -17,7 +17,7 @@ export default function TodoApp() {
 
   return (
     <div style={{ padding: 20 }}>
-      <h1>📝 To-do List</h1>
+      <h1>To-do List</h1>
       <div>
         <input
           value={text}
